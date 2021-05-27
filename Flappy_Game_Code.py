@@ -202,7 +202,7 @@ if __name__ == "__main__":
         pygame.image.load('gallery/sprites/9.png').convert_alpha(),
     )
 
-    GAME_SPRITES['message'] =pygame.image.load('gallery/sprites/message.png').convert_alpha()# u use ur "message.png" image resolution is 184*267
+    GAME_SPRITES['message'] =pygame.image.load('gallery/sprites/message1.jpeg').convert_alpha()# u use ur "message.png" image resolution is 184*267
     GAME_SPRITES['base'] =pygame.image.load('gallery/sprites/base.png').convert_alpha()# u use ur "base.png" image resolution is 336*112
     GAME_SPRITES['pipe'] =(pygame.transform.rotate(pygame.image.load( PIPE).convert_alpha(), 180), 
     pygame.image.load(PIPE).convert_alpha()
